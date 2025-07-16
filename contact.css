@@ -1,0 +1,49 @@
+h1{
+    background-color: antiquewhite;
+    background: linear-gradient(blue,red);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 50px;  
+}
+div{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(8, 140, 181);
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+label {
+    font-size: 20px;
+    color: black;
+}
+input[type="text"],input[type="email"],input[type="textarea"]
+{
+    width:50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+button{
+    background-color:lavenderblush;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
