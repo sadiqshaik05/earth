@@ -1,49 +1,81 @@
-h1{
-    background-color: antiquewhite;
-    background: linear-gradient(blue,red);
-    background-clip: text;
-    color: transparent;
+.contact-section {
     text-align: center;
-    font-size: 50px;  
-}
-div{
-    background-color: #ffffff;
+    padding: 40px 20px;
+    background: #f8f9fc;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(8, 140, 181);
-    text-align: center;
-    padding: 10px 10px;
+    max-width:520px;
+
+}
+#container1 {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width:100%;
+    padding: 40px 10px;
 }
-label {
-    font-size: 20px;
-    color: black;
+
+.f1 {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-input[type="text"],input[type="email"],input[type="textarea"]
-{
-    width:50%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    background-color: aliceblue;
-}
-button{
-    background-color:lavenderblush;
-    color: black;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    width: 90px;
-    height: 40px;
+
+.f1 h2 {
     text-align: center;
-    align-items: center;
+    margin-bottom: 20px;
+    color: #007bff;
 }
-button:hover {
-    background-color: blue;
+
+form label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+}
+
+form input:focus, 
+form textarea:focus {
+    border-color: #007bff;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.submit-btn {
+    margin-top: 15px;
+    background: #007bff;
     color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+.f1 center a {
+    color: #007bff;
+}
+
+@media (max-width: 480px) {
+    .f1 {
+        padding: 20px;
+    }
+    form input, form textarea {
+        font-size: 14px;
+    }
 }
